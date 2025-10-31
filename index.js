@@ -4,12 +4,12 @@ const sub=document.querySelector('.sub');
 let counter=0;
 add.addEventListener('click',()=>{
     counter++;
-    element.innerHTML=`counter: ${counter}`;
+    element.textContent=`counter: ${counter}`;
 
 })
 sub.addEventListener('click',()=>{
     counter--;
-    element.innerHTML=`counter: ${counter}`;
+    element.textContent=`counter: ${counter}`;
 
 })
 
